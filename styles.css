@@ -1,0 +1,45 @@
+/* Standardschriftart */
+body {
+    font-family: Calibri, sans-serif;
+}
+
+/* Zentrierte h1-Überschriften */
+h1 {
+    text-align: center;
+}
+
+/* Strukturelemente mit Rahmen und Hintergrundfarben */
+header, nav, main, aside, footer {
+    border: 5px solid;
+}
+
+/* Spezifische Formatierungen für jedes Strukturelement */
+header {
+    background-color: #D3D3D3;
+    border-color: black;
+    height: 100px;
+}
+
+nav {
+    background-color: #FFFF6C;
+    border-color: #e7c157;
+    height: 150px;
+}
+
+main {
+    background-color: white;
+    border-color: #df6c20;
+    height: 400px;
+}
+
+aside {
+    background-color: #D2D2D2;
+    border-color: #8db243;
+    height: 50px;
+}
+
+footer {
+    background-color: #81AAEF;
+    border-color: #C8C8C8;
+    height: 50px;
+}
